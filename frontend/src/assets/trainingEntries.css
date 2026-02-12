@@ -1,0 +1,209 @@
+/* Allgemeine Container-Stile */
+#app {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.newtrainingsentry, .training-entries {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.newtrainingsentry h2, .training-entries h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.newtrainingsentry input, .newtrainingsentry span {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.newtrainingsentry input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.newtrainingsentry button {
+    background-color: #512da8;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.newtrainingsentry button:hover {
+    background-color: #311b92;
+}
+
+.statistics {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    text-align: center;
+}
+
+.statistics h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.statistics p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.statistics .bold-number {
+    font-weight: bold;
+}
+
+/* Stil für das Sortier-Dropdown */
+.training-entries .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.training-entries .filter-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.training-entries .filter label {
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.training-entries .filter select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.training-entries .filter select:focus {
+    border-color: #512da8;
+    background-color: #ffffff;
+}
+
+.training-entries ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.training-entries li {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.entry h3 {
+    color: #1e88e5;
+}
+
+.entry p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: none; /* Kein Schatten */
+}
+
+.button-container button.delete {
+    background-color: #950e0e;
+}
+
+.button-container button.delete:hover {
+    background-color: #750c0c;
+}
+
+.button-container button.edit {
+    background-color: #d3d3d3; /* Helles Grau */
+    color: #333; /* Dunklere Schriftfarbe */
+}
+
+.button-container button.edit:hover {
+    background-color: #b0b0b0; /* Etwas dunkleres Grau beim Hover */
+}
+
+/* Stil für den Container "Keine Einträge vorhanden" */
+.no-entries {
+    font-size: 14px; /* Kleinere Schriftgröße */
+    color: #999999; /* Hellgraue Farbe */
+    text-align: center;
+    background-color: #f5f5f5; /* Helleres Grau für den Hintergrund */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: none; /* Keine Umrandung */
+}
