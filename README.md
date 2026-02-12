@@ -1,7 +1,7 @@
 # Marathon Diary – Monorepo
 
-This repository combines the backend and frontend of the Marathon Diary application
-into a single monorepo.
+Dieses Repository vereint das Backend und das Frontend der Marathon-Diary-Anwendung
+in einem gemeinsamen Monorepo.
 
-Both projects were originally developed as independent repositories and later
-consolidated while preserving full commit history.
+Beide Projekte wurden ursprünglich als eigenständige Repositories entwickelt und
+später unter Beibehaltung der vollständigen Commit-Historie zusammengeführt.
